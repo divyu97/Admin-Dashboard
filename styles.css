@@ -227,3 +227,44 @@ li {
     justify-content: right;
     padding-right: 50px;
 }
+
+.announcements {
+    display: grid;
+    padding: 25px 25px 25px 0px;
+    grid-template-rows: 1fr 12fr;
+}
+
+.announcements-body>div+div+div {
+    border: none;
+    padding-bottom: 0px;
+}
+
+.announcement {
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+
+.announcement-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.announcement-body {
+    font-size: 13px;
+    color: grey;
+}
+
+.announcements-body {
+    display: grid;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    align-content: center;
+    row-gap: 30px;
+}
+
+.announcements-title {
+    font-size: 20px;
+    font-weight: bold;
+}
